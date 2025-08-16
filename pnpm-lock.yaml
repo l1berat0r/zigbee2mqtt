@@ -74,12 +74,6 @@ importers:
       ws:
         specifier: ^8.18.1
         version: 8.18.3
-      zigbee-herdsman:
-        specifier: github:l1berat0r/zigbee-herdsman#master
-        version: https://codeload.github.com/l1berat0r/zigbee-herdsman/tar.gz/6f0b443e238ee0fa0e20648c6a91303a8b749aa0
-      zigbee-herdsman-converters:
-        specifier: github:l1berat0r/zigbee-herdsman-converters#master
-        version: https://codeload.github.com/l1berat0r/zigbee-herdsman-converters/tar.gz/a8449c3d79efc6e8aba97e4db8d4bd9cd5888c3d
       zigbee2mqtt-frontend:
         specifier: 0.9.19
         version: 0.9.19
@@ -1594,14 +1588,6 @@ packages:
     resolution: {integrity: sha512-AyeEbWOu/TAXdxlV9wmGcR0+yh2j3vYPGOECcIj2S7MkrLyC7ne+oye2BKTItt0ii2PHk4cDy+95+LshzbXnGg==}
     engines: {node: '>=12.20'}
 
-  zigbee-herdsman-converters@https://codeload.github.com/l1berat0r/zigbee-herdsman-converters/tar.gz/a8449c3d79efc6e8aba97e4db8d4bd9cd5888c3d:
-    resolution: {tarball: https://codeload.github.com/l1berat0r/zigbee-herdsman-converters/tar.gz/a8449c3d79efc6e8aba97e4db8d4bd9cd5888c3d}
-    version: 24.14.0
-
-  zigbee-herdsman@https://codeload.github.com/l1berat0r/zigbee-herdsman/tar.gz/6f0b443e238ee0fa0e20648c6a91303a8b749aa0:
-    resolution: {tarball: https://codeload.github.com/l1berat0r/zigbee-herdsman/tar.gz/6f0b443e238ee0fa0e20648c6a91303a8b749aa0}
-    version: 5.0.4
-
   zigbee-on-host@0.1.13:
     resolution: {integrity: sha512-mL7s9ic7J85YI7wOG1/QlbRYE3haFzIHqgnM2+xLmjj8CazjhmGjop9TCfuY2JXyDI9ss7bNCLxuI9n6M+TXug==}
     engines: {node: ^20.19.0 || >=22.12.0}
@@ -3009,29 +2995,6 @@ snapshots:
   ws@8.18.3: {}
 
   yocto-queue@1.2.1: {}
-
-  zigbee-herdsman-converters@https://codeload.github.com/l1berat0r/zigbee-herdsman-converters/tar.gz/a8449c3d79efc6e8aba97e4db8d4bd9cd5888c3d:
-    dependencies:
-      buffer-crc32: 1.0.0
-      iconv-lite: 0.6.3
-      semver: 7.7.2
-      zigbee-herdsman: https://codeload.github.com/l1berat0r/zigbee-herdsman/tar.gz/6f0b443e238ee0fa0e20648c6a91303a8b749aa0
-    transitivePeerDependencies:
-      - supports-color
-
-  zigbee-herdsman@https://codeload.github.com/l1berat0r/zigbee-herdsman/tar.gz/6f0b443e238ee0fa0e20648c6a91303a8b749aa0:
-    dependencies:
-      '@serialport/bindings-cpp': 13.0.1
-      '@serialport/parser-delimiter': 13.0.0
-      '@serialport/stream': 13.0.0
-      bonjour-service: 1.3.0
-      debounce: 2.2.0
-      fast-deep-equal: 3.1.3
-      mixin-deep: 2.0.1
-      slip: 1.0.2
-      zigbee-on-host: 0.1.13
-    transitivePeerDependencies:
-      - supports-color
 
   zigbee-on-host@0.1.13: {}
 
