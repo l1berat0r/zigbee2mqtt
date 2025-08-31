@@ -77,9 +77,6 @@ importers:
       zigbee-herdsman:
         specifier: 6.0.2
         version: 6.0.2
-      zigbee-herdsman-converters:
-        specifier: github:l1berat0r/zigbee-herdsman-converters#master
-        version: https://codeload.github.com/l1berat0r/zigbee-herdsman-converters/tar.gz/5b92a1e58f388ca4adfefe72e922da409ef8a3c9
       zigbee2mqtt-frontend:
         specifier: 0.9.20
         version: 0.9.20
@@ -1475,10 +1472,6 @@ packages:
       utf-8-validate:
         optional: true
 
-  zigbee-herdsman-converters@https://codeload.github.com/l1berat0r/zigbee-herdsman-converters/tar.gz/5b92a1e58f388ca4adfefe72e922da409ef8a3c9:
-    resolution: {tarball: https://codeload.github.com/l1berat0r/zigbee-herdsman-converters/tar.gz/5b92a1e58f388ca4adfefe72e922da409ef8a3c9}
-    version: 25.12.0
-
   zigbee-herdsman@6.0.2:
     resolution: {integrity: sha512-naAyInyWYtSrl1iBJjwyzeiWJx5Zc7+8Yf2gd6obLDlhn7JZX6RVmegDEXLjl1XABO28VHQ0RNp4ZTUWmnMpYA==}
 
@@ -2778,15 +2771,6 @@ snapshots:
       strip-ansi: 7.1.0
 
   ws@8.18.3: {}
-
-  zigbee-herdsman-converters@https://codeload.github.com/l1berat0r/zigbee-herdsman-converters/tar.gz/5b92a1e58f388ca4adfefe72e922da409ef8a3c9:
-    dependencies:
-      buffer-crc32: 1.0.0
-      iconv-lite: 0.7.0
-      semver: 7.7.2
-      zigbee-herdsman: 6.0.2
-    transitivePeerDependencies:
-      - supports-color
 
   zigbee-herdsman@6.0.2:
     dependencies:
